@@ -52,7 +52,7 @@
 #tel{
     max-width: 144px;
     height: 25px;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
     line-height: 24.55px;
 }
@@ -120,7 +120,7 @@
     margin-right: 50px;
 }
 .title{
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 24px;
     line-height: 32.74px;
     margin: 70px 0 40px;
