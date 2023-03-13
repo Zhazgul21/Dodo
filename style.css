@@ -1,0 +1,67 @@
+
+*{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.1px;
+
+}
+.container{
+    max-width: 1060px;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 25px;
+}
+.subtitle{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.74px;
+    color: black;
+}
+.logo{
+    max-width: 248.61px;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_title{
+    font-weight: 1000;
+    width: 100%;
+    height: 22px;
+    font-size: 24px;
+}
+.logo_subtitle{
+    max-width: 161px;
+    width: 100%;
+    color: #343434;
+    font-size: 12px;
+    line-height: 16.37px;
+    padding-top: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+#tel{
+    max-width: 144px;
+    width: 100%;
+    height: 25px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24.55px;
+}
+#tel a{
+    color: black;
+}
+#tel p{
+    max-width: 136px;
+    width: 100%;
+    height: 20px;
+    color: #999999;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20.46px;
+}
