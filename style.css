@@ -1,4 +1,10 @@
 
+:root{
+    --orange-main:#F96900;
+    --orange-light:#FFF0E6;
+    --orange-dark:#D15700;
+
+}
 *{
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
@@ -7,10 +13,9 @@
 
 }
 .container{
-    max-width: 1060px;
+    max-width: 1280px;
     margin: 0 auto;
-    border: 1px solid black;
-    margin-top: 25px;
+    padding: 0 110px;
 }
 .subtitle{
     font-family: 'Nunito', sans-serif;
@@ -18,6 +23,11 @@
     font-size: 24px;
     line-height: 32.74px;
     color: black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
 }
 .logo{
     max-width: 248.61px;
@@ -41,13 +51,8 @@
     line-height: 16.37px;
     padding-top: 10px;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-}
 #tel{
     max-width: 144px;
-    width: 100%;
     height: 25px;
     font-weight: 600;
     font-size: 18px;
@@ -58,10 +63,39 @@
 }
 #tel p{
     max-width: 136px;
-    width: 100%;
     height: 20px;
     color: #999999;
     font-weight: 400;
     font-size: 11px;
     line-height: 20.46px;
+    text-align: end;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a{
+    color: black;
+    transition: 0.1s;
+}
+.menu a:hover{
+    color: var(--orange-main);
+}
+
+.menu{
+    max-width: 467px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 41px 0;
+}
+.btn_basket{
+    background-color: var(--orange-main);
+    width: 104px;
+    height: 40px;
+    border-radius: 1000px;
+    color: white;
+    font-weight: 400;
+}
+
