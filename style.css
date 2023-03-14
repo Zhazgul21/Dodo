@@ -44,19 +44,13 @@
     line-height: 16.37px;
     padding-top: 10px;
 }
-#tel{
-    max-width: 144px;
-    height: 25px;
-    font-weight: 400;
+#tel a{
+    color: black;
+    font-weight: 600;
     font-size: 18px;
     line-height: 24.55px;
 }
-#tel a{
-    color: black;
-}
 #tel p{
-    max-width: 136px;
-    height: 20px;
     color: #999999;
     font-weight: 400;
     font-size: 11px;
@@ -123,7 +117,7 @@
     padding: 70px 0 40px;
 }
 .new .title{
-    margin: 70px 0 30px;
+    padding-bottom: 30px;
 }
 .block_big_card{
     display: grid;
@@ -145,7 +139,7 @@
 
 }
 .description{
-    padding: 10px 0px 30px;
+    padding: 10px 26px 30px 0px;
     color: var(--grey-dark);
     font-weight: 400;
     font-size: 14px;
