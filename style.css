@@ -90,6 +90,9 @@
     background-color: var(--orange-main);
     color: white;
 }
+.main_img img{
+    border-radius: 20px;
+}
 .block_new_card{
     display: flex;
     justify-content: space-between;
